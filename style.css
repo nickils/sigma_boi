@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main,
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  padding-left: 150px;
+  padding-top: 35px;
+}
+
+img {
+  border-radius: 25px;
+  display: block;
+}
+
+.cap {
+  display: flex;
+  flex-direction: column;
+  flex: 55px;
+  width: 55px;
+  height: 100%;
+  background-color: #0c0d0f;
+  position: fixed;
+  align-items: center;
+  border-radius: 10px;
+  outline-color: #1c1f26;
+  outline-style: solid;
+  outline-width: 0.01px;
+}
+
+body {
+  background-color: #111215;
+  color: white;
+  font-size: 150%;
+  font-family: Ubuntu;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+
+a:hover {
+  color: yellow;
+  font-style: italic;
+}
+
+.bar > * {
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.logo:hover {
+  content: url("images/home.png");
+  width: 75%;
+}
+
+.pagename {
+  color: #2c2c65;
+  padding-left: 85px;
+  padding-top: 20px;
+}
+
+.navibox{
+  border-radius: 20px;
+  display: block;
+  min-width: 500px;
+  min-height: 250px;
+  background-color: #222222;
+}
+
+.navihead{
+padding-top: 0px;
+align-self: flex-start;
+height: 50px;
+background: linear-gradient(to right, #e34133, #b82d25);
+border-radius: 20px;
+align-content: center;
+}
